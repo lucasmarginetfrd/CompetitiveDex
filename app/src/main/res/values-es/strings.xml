@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CompetitiveDex</string>
+    <string name="grass">PLANTA</string>
+    <string name="fire">FUEGO</string>
+    <string name="water">AGUA</string>
+    <string name="bug">BICHO</string>
+    <string name="psychic">PSIQUICO</string>
+    <string name="fighting">LUCHA</string>
+    <string name="rock">ROCA</string>
+    <string name="ground">TIERRA</string>
+    <string name="flying">VOLADOR</string>
+    <string name="steel">ACERO</string>
+    <string name="ice">HIELO</string>
+    <string name="dark">SINIESTRO</string>
+    <string name="poison">VENENO</string>
+    <string name="fairy">HADA</string>
+    <string name="ghost">FANTASMA</string>
+    <string name="dragon">DRAGON</string>
+    <string name="normal">NORMAL</string>
+    <string name="electric">ELECTRICO</string>
+</resources>

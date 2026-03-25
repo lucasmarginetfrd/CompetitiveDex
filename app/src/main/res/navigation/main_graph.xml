@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/pokeByTypeFragment">
+
+    <fragment
+        android:id="@+id/pokeByTypeFragment"
+        android:name="com.epicjugador.competitivedex.ui.pokeByType.PokeByTypeFragment"
+        android:label="fragment_poke_by_type"
+        tools:layout="@layout/fragment_poke_by_type" >
+        <action
+            android:id="@+id/action_pokeByTypeFragment_to_pokeListFragment"
+            app:destination="@id/pokeListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pokeListFragment"
+        android:name="com.epicjugador.competitivedex.ui.PokeList.PokeListFragment"
+        android:label="fragment_poke_list"
+        tools:layout="@layout/fragment_poke_list" >
+        <argument
+            android:name="pokeListByType"
+            app:argType="com.epicjugador.competitivedex.domain.model.PokeData[]" />
+        <action
+            android:id="@+id/action_pokeListFragment_to_pokeDetailActivity"
+            app:destination="@id/pokeDetailActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/pokeDetailActivity"
+        android:name="com.epicjugador.competitivedex.ui.detail.PokeDetailActivity"
+        android:label="activity_poke_detail"
+        tools:layout="@layout/activity_poke_detail" >
+        <argument
+            android:name="pokeId"
+            app:argType="integer" />
+    </activity>
+    <fragment
+        android:id="@+id/pokeUsage"
+        android:name="com.epicjugador.competitivedex.ui.PokeUsageInfo.PokeUsageFragment"
+        android:label="fragment_poke_usage"
+        tools:layout="@layout/fragment_poke_usage">
+    </fragment>
+
+</navigation>

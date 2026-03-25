@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pokeByTypeFragment"
+        android:title="info"
+        android:icon="@drawable/ic_info"/>
+    <item
+        android:id="@+id/pokeListFragment"
+        android:title="movesWeak"
+        android:icon="@drawable/ic_info"/>
+    <item
+        android:id="@+id/pokeDetailActivity"
+        android:title="teamBuilder"
+        android:icon="@drawable/ic_info"/>
+    <item
+        android:id="@+id/pokeUsage"
+        android:title="pokeMaker"
+        android:icon="@drawable/ic_info"/>
+</menu>
