@@ -1,4 +1,4 @@
-package com.epicjugador.competitivedex.ui.pokeByType
+package com.epicjugador.competitivedex.ui.pokeByType.Compose
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -10,6 +10,7 @@ import androidx.compose.ui.unit.dp
 import com.epicjugador.competitivedex.domain.model.PokeTypeInfo
 import androidx.compose.runtime.getValue
 import androidx.compose.foundation.lazy.items
+import com.epicjugador.competitivedex.ui.pokeByType.PokeTypeViewModel
 
 @Composable
 fun PokeByTypeScreen(

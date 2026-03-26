@@ -1,4 +1,4 @@
-package com.epicjugador.competitivedex.ui.PokeList
+package com.epicjugador.competitivedex.ui.PokeList.Compose
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -17,7 +17,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.runtime.livedata.observeAsState
 import com.epicjugador.competitivedex.domain.model.PokeData
-import com.epicjugador.competitivedex.ui.PokeList.adapterList.PokeListViewModel
+import com.epicjugador.competitivedex.ui.PokeList.PokeListViewModel
 
 @Composable
 fun PokeListScreen(

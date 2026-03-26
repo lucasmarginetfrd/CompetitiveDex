@@ -1,31 +1,14 @@
 package com.epicjugador.competitivedex.ui.detail
 
-import android.graphics.Typeface
 import android.os.Bundle
-import android.text.Spannable
-import android.text.SpannableString
-import android.text.style.StyleSpan
-import android.util.Log
-import android.view.View
+import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.isGone
-import androidx.core.view.isVisible
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.lifecycleScope
-import androidx.lifecycle.repeatOnLifecycle
 import androidx.navigation.navArgs
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.epicjugador.competitivedex.R
-import com.epicjugador.competitivedex.data.core.ItemSpriteManager
-import com.epicjugador.competitivedex.databinding.ActivityPokeDetailBinding
-import com.epicjugador.competitivedex.domain.model.UsageListItem
-import com.epicjugador.competitivedex.ui.detail.adapterDetail.UsageAdapter
-import com.squareup.picasso.Picasso
+import com.epicjugador.competitivedex.ui.detail.Compose.PokeDetailScreen
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.launch
-import kotlin.math.round
 
+/*
 @AndroidEntryPoint
 class PokeDetailActivity : AppCompatActivity() {
 
@@ -482,5 +465,24 @@ class PokeDetailActivity : AppCompatActivity() {
 
     private fun errorState() {
 
+    }
+}
+*/
+
+@AndroidEntryPoint
+class PokeDetailActivity : AppCompatActivity() {
+
+    private val viewModel: PokeDetailViewModel by viewModels()
+    private val args: PokeDetailActivityArgs by navArgs()
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        viewModel.getPokeDetails(args.pokeId)
+        viewModel.loadStats()
+
+        setContent {
+            PokeDetailScreen(viewModel = viewModel)
+        }
     }
 }

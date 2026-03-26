@@ -1,4 +1,4 @@
-package com.epicjugador.competitivedex.ui.PokeList
+package com.epicjugador.competitivedex.ui.PokeList.Compose
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -16,6 +16,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.*
 import coil.compose.AsyncImage
 import com.epicjugador.competitivedex.domain.model.PokeData
+import com.epicjugador.competitivedex.ui.PokeList.formatName
+import com.epicjugador.competitivedex.ui.PokeList.getTypeColor
+import com.epicjugador.competitivedex.ui.PokeList.lightenColor
 
 @Composable
 fun PokeItem(

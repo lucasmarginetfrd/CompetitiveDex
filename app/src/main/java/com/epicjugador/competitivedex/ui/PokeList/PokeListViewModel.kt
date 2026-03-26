@@ -1,4 +1,4 @@
-package com.epicjugador.competitivedex.ui.PokeList.adapterList
+package com.epicjugador.competitivedex.ui.PokeList
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

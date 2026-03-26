@@ -1,4 +1,4 @@
-package com.epicjugador.competitivedex.ui.pokeByType
+package com.epicjugador.competitivedex.ui.pokeByType.Compose
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable

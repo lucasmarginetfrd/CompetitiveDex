@@ -1,4 +1,4 @@
-package com.epicjugador.competitivedex.ui.PokeList
+package com.epicjugador.competitivedex.ui.PokeList.Compose
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Box
@@ -14,6 +14,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.epicjugador.competitivedex.ui.PokeList.getTypeColor
 
 @Composable
 fun TypeChip(type: String) {

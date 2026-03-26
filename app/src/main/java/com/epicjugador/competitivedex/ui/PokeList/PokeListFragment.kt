@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.epicjugador.competitivedex.ui.PokeList.adapterList.PokeListViewModel
+import com.epicjugador.competitivedex.ui.PokeList.Compose.PokeListScreen
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

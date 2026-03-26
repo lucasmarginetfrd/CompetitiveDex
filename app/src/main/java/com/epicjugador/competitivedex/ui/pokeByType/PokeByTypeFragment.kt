@@ -12,6 +12,7 @@ import com.epicjugador.competitivedex.domain.model.Poke
 import com.epicjugador.competitivedex.domain.model.PokeData
 import com.epicjugador.competitivedex.domain.model.PokeTypeInfo
 import com.epicjugador.competitivedex.domain.model.PokeTypeModel
+import com.epicjugador.competitivedex.ui.pokeByType.Compose.PokeByTypeScreen
 import com.google.gson.Gson
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.CoroutineScope
