@@ -84,6 +84,12 @@ dependencies {
     //Scalars
     implementation("com.squareup.retrofit2:converter-scalars:2.9.0")
 
+    implementation("androidx.compose.ui:ui:1.6.0")
+    implementation("androidx.compose.material3:material3:1.2.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.7.0")
+    implementation("io.coil-kt:coil-compose:2.5.0")
+    implementation("androidx.compose.runtime:runtime-livedata:1.6.0")
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

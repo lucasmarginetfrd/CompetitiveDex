@@ -1,5 +1,5 @@
 package com.epicjugador.competitivedex.ui.PokeList.adapterList
-
+/*
 import android.content.Context
 import android.graphics.drawable.GradientDrawable
 import android.view.View
@@ -145,4 +145,4 @@ class PokeListViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         return (0xFF shl 24) or (r shl 16) or (g shl 8) or b
     }
 
-}
+}*/

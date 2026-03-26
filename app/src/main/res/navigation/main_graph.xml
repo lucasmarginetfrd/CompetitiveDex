@@ -8,8 +8,7 @@
     <fragment
         android:id="@+id/pokeByTypeFragment"
         android:name="com.epicjugador.competitivedex.ui.pokeByType.PokeByTypeFragment"
-        android:label="fragment_poke_by_type"
-        tools:layout="@layout/fragment_poke_by_type" >
+        android:label="fragment_poke_by_type" >
         <action
             android:id="@+id/action_pokeByTypeFragment_to_pokeListFragment"
             app:destination="@id/pokeListFragment" />
