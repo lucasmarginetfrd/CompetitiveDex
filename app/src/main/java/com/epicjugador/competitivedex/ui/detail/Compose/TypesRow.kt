@@ -5,7 +5,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
-import androidx.compose.material3.Divider
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -20,7 +20,7 @@ fun TypesRow(types: List<String>) {
         TypeItem(types[0])
 
         if (types.size == 2) {
-            Divider(
+            HorizontalDivider(
                 modifier = Modifier
                     .height(50.dp)
                     .width(2.dp)

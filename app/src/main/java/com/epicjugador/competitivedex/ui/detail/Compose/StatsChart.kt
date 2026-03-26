@@ -34,7 +34,6 @@ fun StatsChart(
     data: Map<String, Int>,
     maxValue: Int
 ) {
-    val context = LocalContext.current
 
     Column(
         modifier = Modifier

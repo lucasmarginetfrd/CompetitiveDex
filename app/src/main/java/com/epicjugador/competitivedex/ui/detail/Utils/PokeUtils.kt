@@ -53,7 +53,3 @@ fun formatNameSmogon(name: String): String {
     return formattedParts.joinToString("-")
 
 }
-
-fun roundDecimals(value: Double?): Double {
-    return round(value?.times(100) ?: 0.0) / 100
-}
