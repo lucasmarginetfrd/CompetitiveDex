@@ -1,7 +1,5 @@
 package com.epicjugador.competitivedex.ui.detail.Utils
 
-import kotlin.math.round
-
 fun formatNameDetails(name: String): String {
     val parts = name.lowercase().split("-").toMutableList()
 
